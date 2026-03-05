@@ -7,7 +7,7 @@ This repository contains a series of Jupyter notebooks designed to guide you thr
 1. [Overview](#overview)
 2. [Tutorial Structure](#tutorial-structure)
 3. [Notebook Summaries](#notebook-summaries)
-   - [Lessons 1–3: Foundation](#lessons-1-3-foundation)
+   - [Lessons 1–4: Foundation](#lessons-1-4-foundation)
    - [Notebook 2: Accessing Real DFT Data from the Materials Project](#notebook-2-accessing-real-dft-data-from-the-materials-project)
    - [Notebook 3: Feature Engineering & Exploratory Data Analysis (Revised for Scientific Rigour)](#notebook-3-feature-engineering--exploratory-data-analysis-revised-for-scientific-rigour)
    - [Notebook 4: Machine Learning Modeling of Antimicrobial Activity](#notebook-4-machine-learning-modeling-of-antimicrobial-activity)
@@ -35,16 +35,18 @@ The repository contains three introductory lessons (Lessons 1–3) and three mai
 ├── Lesson_1_Python_Basics.ipynb
 ├── Lesson_2_Data_Manipulation_with_Pandas.ipynb
 ├── Lesson_3_Data_Visualization_with_Matplotlib_Seaborn.ipynb
-├── Notebook_2_Accessing_DFT_Data_Materials_Project.ipynb
-├── Notebook_3_Feature_Engineering_EDA.ipynb
-├── Notebook_4_Machine_Learning_Modeling.ipynb
+├── Notebook_01_Python_DataScience_Fundamentals.ipynb
+├── Notebook_02_Accessing_DFT_Data_Materials_Project.ipynb
+├── Notebook_03_Feature_Engineering_EDA.ipynb
+├── Notebook_04_Machine_Learning_Modeling.ipynb
 └── README.md
 ```
 
 - **Lessons 1–3** – Cover essential Python programming, data handling with pandas, and visualization with Matplotlib and Seaborn. These lessons ensure you have the necessary foundation before tackling the main project.
-- **Notebook 2** – Demonstrates how to query the Materials Project API to obtain real DFT data for candidate materials (oxides, nitrides, etc.) and store it in a structured format.
-- **Notebook 3** – Performs rigorous feature engineering based on the scientific literature, creates target labels for three antimicrobial mechanisms (ion release, photocatalytic activity, polarity), and explores the data through statistical summaries and visualizations.
-- **Notebook 4** – Builds and evaluates classification and regression models to predict antimicrobial activity and potency. Feature importance analysis reveals which material properties drive each mechanism.
+- **Notebook 01** – Summarizes Lessons 1 to 3, earlier covered.
+- **Notebook 02** – Demonstrates how to query the Materials Project API to obtain real DFT data for candidate materials (oxides, nitrides, etc.) and store it in a structured format.
+- **Notebook 03** – Performs rigorous feature engineering based on the scientific literature, creates target labels for three antimicrobial mechanisms (ion release, photocatalytic activity, polarity), and explores the data through statistical summaries and visualizations.
+- **Notebook 04** – Builds and evaluates classification and regression models to predict antimicrobial activity and potency. Feature importance analysis reveals which material properties drive each mechanism.
 
 ## Notebook Summaries
 
@@ -58,7 +60,9 @@ These introductory notebooks are designed for learners with little to no prior e
 
 Each lesson includes hands‑on exercises and mini‑projects to reinforce the concepts.
 
-### Notebook 2: Accessing Real DFT Data from the Materials Project
+### Notebook 01: Summarizes all Lessons from Lesson 1 to 3
+
+### Notebook 02: Accessing Real DFT Data from the Materials Project
 
 **Objective:** Learn how to programmatically access the Materials Project database and retrieve DFT‑computed properties for materials relevant to antimicrobial activity.
 
@@ -75,7 +79,7 @@ Each lesson includes hands‑on exercises and mini‑projects to reinforce the c
 - Efficiently querying large materials databases.
 - Building a custom dataset for machine learning.
 
-### Notebook 3: Feature Engineering & Exploratory Data Analysis (Revised for Scientific Rigour)
+### Notebook 03: Feature Engineering & Exploratory Data Analysis (Revised for Scientific Rigour)
 
 **Objective:** Transform raw DFT data into meaningful features and create scientifically‑grounded target labels. Explore the data to understand distributions, correlations, and potential biases.
 
@@ -91,7 +95,7 @@ Each lesson includes hands‑on exercises and mini‑projects to reinforce the c
 - Handling missing data and avoiding data leakage.
 - Data visualization techniques for high‑dimensional datasets.
 
-### Notebook 4: Machine Learning Modeling of Antimicrobial Activity
+### Notebook 04: Machine Learning Modeling of Antimicrobial Activity
 
 **Objective:** Build and evaluate machine learning models to predict antimicrobial activity and potency. Interpret model outputs to gain scientific insights.
 
@@ -180,10 +184,10 @@ For Notebook 2, you must also obtain a free API key from [Materials Project](htt
 
 4. **Work through the notebooks in order:**
 
-   - Start with **Lesson 1**, **Lesson 2**, and **Lesson 3** if you need to build foundational skills.
-   - Proceed to **Notebook 2** to fetch your own DFT data (or use the provided CSV if you prefer to skip this step).
-   - Run **Notebook 3** to perform feature engineering and EDA.
-   - Finally, execute **Notebook 4** to train and evaluate machine learning models.
+   - Start with **Lesson 1**, **Lesson 2**, and **Lesson 3** if you need to build foundational skills or go straight to Notebook 01.
+   - Proceed to **Notebook 02** to fetch your own DFT data (or use the provided CSV if you prefer to skip this step).
+   - Run **Notebook 03** to perform feature engineering and EDA.
+   - Finally, execute **Notebook 04** to train and evaluate machine learning models.
 
 5. **Experiment!** Modify model parameters, try different features, or adapt the code to your own materials science problems.
 
